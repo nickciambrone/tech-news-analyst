@@ -1,0 +1,35 @@
+name: Run Node Script Daily at Random Time
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # Starts at 5:00 UTC daily
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+      TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Random delay between 0 and 180 minutes
+        run: |
+          DELAY=$(( RANDOM % 181 ))  # 0–180 minutes
+          echo "Sleeping for $DELAY minutes..."
+          sleep "${DELAY}m"
+
+      - name: Run script
+        run: node postTweet.js
