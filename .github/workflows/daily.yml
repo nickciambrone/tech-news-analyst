@@ -2,7 +2,11 @@ name: Run Node Script Daily at Random Time
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # Starts at 5:00 UTC daily
+    - cron: "43 13 * * *"  # 9:40 ET
+    - cron: "45 13 * * *"  # 10:10 ET
+    - cron: "42 09 * * *"  # 11:10 ET
+    - cron: "21 10 * * *"  # 11:40 ET
+    - cron: "14 11 * * *"  # 12:10 ET
 
 jobs:
   run-script:
