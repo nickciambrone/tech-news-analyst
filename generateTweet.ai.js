@@ -40,6 +40,8 @@ Details:
 6. Show some personality. You need to sound like a real person.
 7. Don't use short choppy fucking sentences. Talk like a human being would. Don't use tildas, and don't overuse hyphens. And stop using the fucking word "moat".
 8. Include hashtags (#AI, #TechInvesting, etc.) to tap into trending conversations and boost discoverability. 
+9. Very important. You should NOT be using short sentences, this needs to be a thoughtful analysis. 
+10. Also most important, at the same time, it should appeal to someone who knows nothing about technology. I WANT YOU TO LITERALLY FUCKING EXPLAIN IT LIKE YOU ARE TALKING TO 13 YEAR OLD. 
 Article: ${JSON.stringify(targetArticle)}
 `,
   });

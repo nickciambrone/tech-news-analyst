@@ -1,5 +1,23 @@
 [
   {
+    "url": "https://techcrunch.com/2025/09/03/scale-ai-is-suing-a-former-employee-and-rival-mercor-alleging-they-tried-to-steal-its-biggest-customers/",
+    "story": [
+      "Scale AI, which helps tech companies prepare data to train their AI models, filed a lawsuit against one of its former sales employees and its rival Mercor on Wednesday. The suit claims the employee, who was hired by Mercor, “stole more than 100 confidential documents concerning Scale’s customer strategies and other proprietary information,” according to a copy seen by TechCrunch.",
+      "Scale is suing Mercor for misappropriation of trade secrets and is suing the former employee, Eugene Ling, for breach of contract. The suit also claims the employee was trying to pitch Mercor to one of Scale’s largest customers before he officially left his former job. The suit calls this company “Customer A.”",
+      "Mercor co-founder Surya Midha denies that his company used any data from Scale, although he admits that Ling may have been in possession of some.",
+      "“While Mercor has hired many people who departed Scale, we have no interest in any of Scale’s trade secrets and in fact are intentionally running our business in a different way. Eugene informed us that he had old documents in a personal Google Drive, which we have never accessed and are now investigating,” Midha told TechCrunch in an emailed statement.",
+      "“We reached out to Scale six days ago offering to have Eugene destroy the files or reach a different resolution, and we are now awaiting their response,” Midha said.",
+      "Scale alleges that these documents contained the specific data that would allow Mercor to serve Customer A, as well as several other of Scale’s most important clients.",
+      "Scale wanted Mercor to give it a full list of the files in the drive, and to prevent Ling from working with Customer A. It alleges in the suit that Mercor refused. Ling did not immediately respond to TechCrunch’s request for comment, but he later wrote on X: “Just heard I’m getting sued by Scale. Last month, I left Scale to work at Mercor. I know this was frustrating for my old team, and I feel bad about that.”",
+      "Continued Ling, “When Scale reached out about some files I had in my personal drive, I asked if I could just delete them. But Scale asked that I not do anything with them, so I’m still waiting for guidance on how to resolve this. I’ve never used any of them in this role. It sounds like Scale wants to sue me and that’s up to them. But I just wanted to say that there truly was no nefarious intent here. I’m really sorry to my new team at Mercor for having to deal with this.”",
+      "There are scant clues in the suit about the identity of Customer A. The suit does say that if Scale’s rival did win this customer away, it would be a contract “worth millions of dollars to Mercor.”",
+      "Whatever the details of this suit, it does show one thing: Scale is clearly concerned enough about the threat of Mercor to pursue legal action. As TechCrunch previously reported, even with Meta’s multibillion-dollar investment into Scale, TBD Labs — the core unit within Meta tasked with building AI superintelligence — is still using Mercor and other LLM data training service providers.",
+      "Mercor is rising in the LLM training arena because it is known for hiring content specialists, often PhDs, to train LLM data in their areas of expertise.",
+      "In June, Scale announced that Meta was investing $14.3 billion for a 49% stake in Scale and was hiring away its founder. Shortly after that, several of Scale AI’s largest data customers, who are competitors to Meta’s efforts, reportedly cut ties with it.",
+      "Updated with comments on social media from Eugene Ling."
+    ]
+  },
+  {
     "url": "https://techcrunch.com/2025/09/03/coreweave-acquires-agent-training-startup-openpipe/",
     "story": [
       "CoreWeave, which provides cloud servers to large companies training AI models, has struck an agreement to acquire OpenPipe, a two-year-old Y Combinator-backed startup that helps enterprises develop customized AI agents with reinforcement learning, the companies announced on Wednesday.",
@@ -19,6 +37,23 @@
       "Additionally, the iPhone 17 is expected to feature a slightly larger 6.3-inch screen and a 120Hz display, a big boost from the existing 60Hz. It’s also speculated to include a 24-megapixel front camera.",
       "The Pro model may receive a significant redesign on the back of the device, too. Instead of a square-shaped camera bump on the left, there could be a rectangular camera bar extending across the width of the ‌iPhone‌, with the flash and lidar sensor on the right.",
       "Apple may also provide more details about the public release of iOS 26, which introduces a Liquid Glass interface that offers a more transparent look."
+    ]
+  },
+  {
+    "url": "https://techcrunch.com/2025/09/03/apples-siri-upgrade-could-reportedly-be-powered-by-google-gemini/",
+    "story": [
+      "Apple’s Siri overhaul may include an AI-powered web search tool with technology powered by Google’s Gemini, according to a new report from Bloomberg’s Mark Gurman. The iPhone maker, which has been criticized for falling behind in the AI race, delayed its long-awaited Siri update until 2026. In the meantime, the company has been scrambling to determine whether its own AI models alone will work well enough to make its upgraded Siri competitive with the AI answer engines available today from tech companies like OpenAI, Perplexity, and Google.",
+      "Per Bloomberg, Apple could be turning to Google for a solution to its problems. The report claims that Apple and Google reached a formal agreement this week that will see Apple testing a Google AI model in Siri. If successful, the technology could also be used in other areas of iPhone software, including the Safari browser and Spotlight search, which is available on the Home Screen.",
+      "In previous years, Spotlight seemed to be ramping up to become a rival of sorts to Google, as it allowed iPhone users to bypass web searches to get basic answers about popular topics, like information about actors, musicians, TV shows, and movies, among other things. With AI chatbots, however, consumers can now source quick answers about a wide range of topics beyond those that could be found on Wikipedia.",
+      "The report suggests that the upgraded search experience’s interface will use a combination of text, photos, videos, and local points of interest, as well as an AI-powered summarization feature. It will also be able to tap into users’ personal data and let them navigate their devices via voice."
+    ]
+  },
+  {
+    "url": "https://techcrunch.com/2025/09/03/mistral-the-french-ai-giant-is-reportedly-on-the-cusp-of-securing-a-14-billion-valuation/",
+    "story": [
+      "French AI startup Mistral AI is finalizing a €2 billion investment at a post-money valuation of $14 billion, reports Bloomberg, positioning the company as one of Europe’s most valuable tech startups. The two-year-old OpenAI rival, founded by former DeepMind and Meta researchers, develops open source language models and Le Chat, its AI chatbot built for European audiences.",
+      "Mistral isn’t commenting on the report, but the round would represent Mistral’s first major raise since June 2024, when it was valued at €5.8 billion. The company has previously raised over €1 billion from prominent investors, including Andreessen Horowitz and General Catalyst.",
+      "The investment comes as European AI startups gain unprecedented momentum. European AI companies secured 55% more year-on-year investment in Q1 2025, according to Dealroom, with 12 European startups achieving unicorn status in the first half of the year. Also leading this surge is Sweden’s Lovable, an AI coding platform that reached a $1.8 billion valuation in July just eight months after its launch."
     ]
   },
   {
@@ -59,87 +94,6 @@
       "In terms of the future, Solomon says Fizz will continue to expand to new campuses and markets. Fizz also plans to expand its social features while focusing on authenticity and community.",
       "Fizz shared that in the past month, it has quadrupled its daily active users, launched on 250+ new campuses, and broken its one-day registration record 12 days in a row.",
       "The startup has raised $41 million in funding to date."
-    ]
-  },
-  {
-    "url": "https://techcrunch.com/2025/09/03/paypal-and-venno-are-now-giving-out-comet-invites/",
-    "story": [
-      "Invites to Perplexity’s new AI-powered web browser, Comet, are one of the web’s hottest commodities these days. The new product was made available first to the AI firm’s $200-per-month Max subscribers and a small group of invitees. But now there’s a new way to jump ahead on the waitlist. On Wednesday, PayPal announced it’s giving its customers, including PayPal and Venmo users, early access to Comet as well as a free year’s subscription to Perplexity’s premium service, Perplexity Pro, normally $200 per year.",
-      "The browser, launched in July, offers an integrated AI assistant, AI-generated summaries of search results, product comparisons, and other features.",
-      "While typically a co-marketing relationship isn’t news, it’s worth paying attention to this deal because of PayPal’s ability to position Comet in front of millions of U.S. customers, and later, even more globally.",
-      "The arrangement is part of an expanded partnership between PayPal and the AI provider, which benefits both companies in different ways. Earlier this summer, the two companies partnered on agentic commerce on Perplexity’s platform, allowing PayPal or Venmo to check out instantly when they asked the AI to find products, book travel, or buy tickets.",
-      "For PayPal, the deal also has the potential to draw users to its apps with the promise of the Comet invite and free subscription, while also calling attention to a new subscriptions hub feature, which provides a single destination where users can view and manage their recurring subscriptions. (Alongside this, PayPal is running a promotion that pays out $50 to customers who link and pay for at least three subscriptions through its service.)",
-      "Meanwhile, Perplexity gains increased exposure at a time when AI agents are battling for attention, and AI-powered browsers are aiming to disrupt a market currently dominated by Chrome. It could also help Perplexity gain more paid subscribers, as users may either forget to cancel or actively decide to stay subscribed when the free year of Perplexity Pro is up.",
-      "To receive the free 12-month subscription and Comet invite, PayPal and Venmo users will be able to access the offer directly in their respective apps. Users only get one invite per PayPal account, and they can’t already be Perplexity Pro customers.",
-      "“Our partnership with Perplexity gives PayPal and Venmo customers early access to one of the most anticipated AI browsers and dynamic subscriptions,” said Diego Scotti, general manager of the Consumer Group at PayPal, in a prepared statement. “It’s exciting to deliver offers and tools that our customers request most, meeting their needs and helping them navigate their financial lives with greater simplicity, added convenience, and even more rewards.”",
-      "The offer is valid through the end of 2025 and is available to U.S. customers and some international customers at launch, PayPal notes. It will roll out to international markets later in the month. After customers sign up for Perplexity Pro, they’ll receive information on how to immediately download and install the Comet browser.",
-      "The subscriptions hub is available this week to all U.S. customers after a prior ramp-up period.",
-      "Update: After publication, PayPal contacted us to let us know the feature would roll out in some international markets today. The article has been updated to reflect that new information."
-    ]
-  },
-  {
-    "url": "https://techcrunch.com/2025/09/03/venezuelas-president-thinks-american-spies-cant-hack-huawei-phones/",
-    "story": [
-      "During a press conference on Monday, Venezuela’s president, Nicolás Maduro, showed off a Huawei smartphone that China’s President Xi Jinping gifted him, calling it “the best phone in the world,” and making a bold claim.",
-      "“The Americans can’t hack it, neither their spy planes, nor their satellites,” Maduro said.",
-      "The phone looked like a Mate X6, a foldable phone released by Huawei in 2024.",
-      "Obviously, nothing is impossible to hack, and even less so by U.S. government hackers, who are considered some of the best in the world.",
-      "A U.S.-based vulnerability researcher told TechCrunch that because Huawei makes its own hardware, as well as its own mobile operating system — HarmonyOS — its devices are easier to hack.",
-      "“There’s bound to be many more mistakes in their brand-new code than in iOS and Android at this time,” said the researcher, who asked to remain anonymous to discuss sensitive issues.",
-      "HarmonyOS — like any software in the world — has had bugs and needs regular security updates. In the case of the Mate X6, Huawei promises monthly security patches but also notes that “the number of device models with monthly security patch updates is subject to change. Certain carriers may only support updates on a quarterly basis.”",
-      "Last month alone, Huawei patched 60 bugs in HarmonyOS, 13 of which were classified as “high severity” bugs.",
-      "Huawei acknowledges that malware can get on its devices and has a page dedicated to helping customers who may have gotten their devices hacked.",
-      "Huawei did not respond to a request for comment.",
-      "There is a documented history of U.S. government hackers targeting Huawei. In 2014, documents leaked by Edward Snowden revealed that the NSA had hacked and hid backdoors inside Huawei servers in China. The hack was so bad that NSA spies got all the way inside Huawei’s headquarters in Shenzhen, which allowed them to spy on company executives’ communications and get information about its products.",
-      "“Many of our targets communicate over Huawei-produced products,” the NSA document said, according to The New York Times. “We want to make sure that we know how to exploit these products,” it added, to “gain access to networks of interest” around the world.",
-      "Even though that was in 2014, it is almost certain that the NSA, U.S. Cyber Command, and others have the mission to hack Huawei devices and find vulnerabilities in them for espionage purposes. There are likely U.S. government employees whose only job is to hack Huawei devices and systems. Earlier this year, the Chinese government accused the NSA of targeting Chinese critical infrastructure."
-    ]
-  },
-  {
-    "url": "https://techcrunch.com/2025/09/03/these-20-and-22-year-olds-raised-5m-from-yc-general-catalyst-to-study-online-behavior-using-vision-ai/",
-    "story": [
-      "Amogh Chaturvedi is running on little sleep but plenty of conviction at 6 a.m. He’s groggy, apologetic for rescheduling, and still reeling from a recent scare involving a family member and an electric scooter.",
-      "Within minutes, though, the 20-year-old Stanford dropout snaps into focus, walking me through how he and his co-founders sold one startup at 19, landed in Y Combinator, and raised $5 million for their next company, Human Behavior.",
-      "Launched just a few months ago, Human Behavior is betting that vision AI can do what analytics tools like Mixpanel and PostHog have struggled with: give companies a real understanding of how people use their products, including why they convert or churn.",
-      "Instead of relying on manually tagged events or clickstream data, Human Behavior claims its AI watches real user session replays and generates insights, answering product teams’ most pressing questions without hours of instrumenting code.",
-      "The 4-month-old YC startup closed its $5 million seed round in just two days (which is becoming a norm for current YC companies), with backers including General Catalyst, Paul Graham, Vercel Ventures, and Y Combinator.",
-      "“We could’ve done the financial engineering game because we got more offers with higher valuations, but we didn’t want that,” said the CEO.",
-      "Chaturvedi met his co-founders, Skyler Ji and Chirag Kawediya, both 22, at a hacker house he organized in 2023 as an excuse to live and build with friends after his freshman year at Stanford.",
-      "Their first startup, Dough, was an e-commerce accounting tool they bootstrapped. Like Chaturvedi, Ji dropped out of college (leaving Berkeley) while Kawediya went on to graduate.",
-      "Although YC was initially skeptical about Dough’s market potential, the team was admitted into the accelerator’s spring batch this year on the assumption they would eventually pivot, Chaturvedi says. They did so almost immediately, after speaking with every customer and inquiring about any other problems they faced.",
-      "The feedback was consistent: While Dough could show which products were selling or not, the customers wanted to know why. Answering that required analytics powered by behavioral data, not just accounting reports.",
-      "With this new direction, the team sold Dough for six figures to Employer.com, the same company that bought Bench, and went all-in on Human Behavior.",
-      "Kawediya explains that companies using traditional analytics often need engineers to set up event trackers for every button and click, burning hours, sometimes weeks, of engineering time.",
-      "For a fast-moving startup, that’s far from ideal. “Even once you have that data, you’re still stuck with the bigger question of how users actually interact with your product so you can make it better,” he says.",
-      "Session replays aren’t new, but until recently, computer vision models weren’t accurate enough to parse them at scale. Now they are, and Human Behavior is doing so to summarize and segment thousands of hours of footage. “Why spend hours writing code to track clicks when we can just watch the video?” Ji adds.",
-      "Today, Human Behavior’s customers — mostly fast-moving Series A and B startups — get daily summary emails highlighting which features were used, which bugs appeared, and which users churned.",
-      "The founders call session replays an “untapped goldmine.” Right now, Human Behavior helps teams understand users and squash bugs. Over time, the same dataset could power automated QA and embedded IT support. Their ambition is to make Human Behavior the Datadog of session replay, spinning out dozens of products from the same core data.",
-      "Building with new technology from the ground up is how the founders believe they’ll take on more established players like Mixpanel and PostHog. “For some of these companies, it might be difficult to replicate what we have because their architecture can’t support the shift without starting over,” remarked Chaturvedi."
-    ]
-  },
-  {
-    "url": "https://techcrunch.com/2025/09/03/scale-ai-is-suing-a-former-employee-and-rival-mercor-alleging-they-tried-to-steal-its-biggest-customers/",
-    "story": [
-      "Scale AI, which helps tech companies prepare data to train their AI models, filed a lawsuit against one of its former sales employees and its rival Mercor on Wednesday. The suit claims the employee, who was hired by Mercor, “stole more than 100 confidential documents concerning Scale’s customer strategies and other proprietary information,” according to a copy seen by TechCrunch.",
-      "Scale is suing Mercor for misappropriation of trade secrets and is suing the former employee, Eugene Ling, for breach of contract. The suit also claims the employee was trying to pitch Mercor to one of Scale’s largest customers before he officially left his former job. The suit calls this company “Customer A.”",
-      "Mercor co-founder Surya Midha denies that his company used any data from Scale, although he admits that Ling may have been in possession of some.",
-      "“While Mercor has hired many people who departed Scale, we have no interest in any of Scale’s trade secrets and in fact are intentionally running our business in a different way. Eugene informed us that he had old documents in a personal Google Drive, which we have never accessed and are now investigating,” Midha told TechCrunch in an emailed statement.",
-      "“We reached out to Scale six days ago offering to have Eugene destroy the files or reach a different resolution, and we are now awaiting their response,” Midha said.",
-      "Scale alleges that these documents contained the specific data that would allow Mercor to serve Customer A, as well as several other of Scale’s most important clients.",
-      "Scale wanted Mercor to give it a full list of the files in the drive, and to prevent Ling from working with Customer A. It alleges in the suit that Mercor refused. Ling did not immediately respond to TechCrunch’s request for comment.",
-      "There are scant clues in the suit about the identity of Customer A. The suit does say that if Scale’s rival did win this customer away, it would be a contract “worth millions of dollars to Mercor.”",
-      "Whatever the details of this suit, it does show one thing: Scale is clearly concerned enough about the threat of Mercor to pursue legal action. As TechCrunch previously reported, even with Meta’s multibillion-dollar investment into Scale, TBD Labs — the core unit within Meta tasked with building AI superintelligence – is still using Mercor and other LLM data training service providers.",
-      "Mercor is rising in the LLM training arena because it is known for hiring content specialists, often PhDs, to train LLM data in their areas of expertise.",
-      "In June, Scale announced that Meta was investing $14.3 billion for a 49% stake in Scale and was hiring away its founder. Shortly after that, several of Scale AI’s largest data customers, who are competitors to Meta’s efforts, reportedly cut ties with it."
-    ]
-  },
-  {
-    "url": "https://techcrunch.com/2025/09/03/apples-siri-upgrade-could-reportedly-be-powered-by-google-gemini/",
-    "story": [
-      "Apple’s Siri overhaul may include an AI-powered web search tool with technology powered by Google’s Gemini, according to a new report from Bloomberg’s Mark Gurman. The iPhone maker, which has been criticized for falling behind in the AI race, delayed its long-awaited Siri update until 2026. In the meantime, the company has been scrambling to determine whether its own AI models alone will work well enough to make its upgraded Siri competitive with the AI answer engines available today from tech companies like OpenAI, Perplexity, and Google.",
-      "Per Bloomberg, Apple could be turning to Google for a solution to its problems. The report claims that Apple and Google reached a formal agreement this week that will see Apple testing a Google AI model in Siri. If successful, the technology could also be used in other areas of iPhone software, including the Safari browser and Spotlight search, which is available on the Home Screen.",
-      "In previous years, Spotlight seemed to be ramping up to become a rival of sorts to Google, as it allowed iPhone users to bypass web searches to get basic answers about popular topics, like information about actors, musicians, TV shows, and movies, among other things. With AI chatbots, however, consumers can now source quick answers about a wide range of topics beyond those that could be found on Wikipedia.",
-      "The report suggests that the upgraded search experience’s interface will use a combination of text, photos, videos, and local points of interest, as well as an AI-powered summarization feature. It will also be able to tap into users’ personal data and let them navigate their devices via voice."
     ]
   },
   {
@@ -248,20 +202,6 @@
     ]
   },
   {
-    "url": "https://techcrunch.com/2025/09/03/googles-notebooklm-now-lets-you-customize-the-tone-of-its-ai-podcasts/",
-    "story": [
-      "Google’s AI note-taking and research assistant NotebookLM now lets users customize the tone of their Audio Overviews, which are podcasts with AI virtual hosts that summarize and discuss documents shared with NotebookLM, such as course readings or legal briefs.",
-      "When generating an Audio Overview, users can now choose whether they want their AI podcasts to be formatted as a “Deep Dive,” “Brief,” “Critique,” or “Debate.”",
-      "A Deep Dive features conversational dialogues where two AI hosts unpack the topic with depth and questions. A Brief is a bite-sized overview that’s designed to help you quickly grasp the core ideas from your sources.",
-      "A Critique features a review of your sources and constructive feedback to help you improve, while a Debate includes two AI hosts offering different perspectives on your sources.",
-      "Each of the different formats lets you customize how long or short you want the AI podcast to be.",
-      "In addition to customizable tones, Google is also bringing a highly requested feature to NotebookLM, which is the addition of new voices for the AI podcasts.",
-      "The launch comes as Google has been building out NotebookLM over the past few months. A few weeks ago, the tech giant rolled out Video Overviews, which allow users to turn dense multimedia, such as raw notes, PDFs, and images, into digestible visual presentations.",
-      "NotebookLM recently also got access to a series of featured notebooks from various authors, publications, researchers, and nonprofits that allow users to explore a wide array of topics. And in May, Google officially rolled out standalone NotebookLM apps for Android and iOS.",
-      "The new formats for NotebookLM are launching in all languages and should be available to all users this week, Google says."
-    ]
-  },
-  {
     "url": "https://techcrunch.com/2025/09/01/bmw-i-am-so-breaking-up-with-you/",
     "story": [
       "I want to be clear from the outset. I’ve never been a car enthusiast. My driving history includes a hand-me-down Volvo with a hole in the floorboards and a series of aggressively practical vehicles, including a VW Golf and a Mazda SUV in which I hauled my family around for 12 years. Then I leased a BMW i4 electric car.",
@@ -290,11 +230,12 @@
     "story": [
       "A homicide investigation has rocked the final days of Burning Man after a man was found dead, “lying in a pool of blood,” Saturday night at the Nevada desert festival, according to the Pershing County Sheriff’s Office. As reported by the New York Times, the grim discovery occurred around 9:14 p.m. just as the festival’s iconic wooden “Man” effigy began its traditional burn.",
       "The victim, described as a white adult male whose identity remains unknown, was found by a festival participant who flagged down a deputy. Sheriff Jerry Allen confirmed that deputies, Bureau of Land Management rangers, and local rangers immediately secured a perimeter while the Washoe County Sheriff’s Office forensic team collected evidence.",
-      "The murder comes as Burning Man long ago evolved from a countercultural gathering into a networking hub for Silicon Valley’s tech elite. Tesla CEO Elon Musk once declared that “Burning Man is Silicon Valley,” and Mark Zuckerberg famously helicoptered in to serve grilled cheese sandwiches. Amazon’s Jeff Bezos has also made the desert pilgrimage.",
+      "The death comes as Burning Man long ago evolved from a countercultural gathering into a networking hub for Silicon Valley’s tech elite. Tesla CEO Elon Musk once declared that “Burning Man is Silicon Valley,” and Mark Zuckerberg famously helicoptered in to serve grilled cheese sandwiches. Amazon’s Jeff Bezos has also made the desert pilgrimage.",
       "But perhaps no tech leaders have deeper ties to the festival than Google founders Larry Page and Sergey Brin, who have been devoted attendees for years. Their connection reportedly runs so deep that long before Google Doodles became known for celebrating holidays, the very first Google Doodle was launched on August 30, 1998, to tell users that Page and Brin were out of office at Burning Man.",
       "This homicide investigation marks the latest in a series of bizarre incidents at the festival over its 38-year history. In 2017, a man died after throwing himself into the burning effigy, while deaths from motorcycle crashes and vehicle accidents have occurred since the 1990s. In another strange twist, last week, a baby named Aurora was born at the festival to parents who had no idea they were expecting.",
       "The investigation faces unique challenges as Sheriff Allen noted it’s “a complicated investigation of a crime in a city which will be gone by the middle of the week.” With the festival scheduled to end Monday and the traditional  exodus of 70,000 attendees beginning, authorities may face pressure to extend the timeline or restrict departures to preserve the crime scene and conduct interviews.",
-      "“Although this act appears to be a singular crime, all participants should always be vigilant of their surroundings and acquaintances,” the sheriff’s office warned as the temporary desert metropolis prepares for its annual dismantling."
+      "“Although this act appears to be a singular crime, all participants should always be vigilant of their surroundings and acquaintances,” the sheriff’s office warned as the temporary desert metropolis prepares for its annual dismantling.",
+      "Correction: This post has been updated to better reflect the nature of the situation and as-of-now unknown cause of death that occurred at this year’s Burning Man."
     ]
   },
   {
@@ -405,6 +346,46 @@
       "With past leadership roles at Google Play, YouTube, PepsiCo, Adobe, and startups, Kim knows what it takes to scale products that reach millions while transforming industries behind the scenes. At Disrupt, she’ll share insights on the intersection of product innovation, creative technology, and global commerce strategy.",
       "This is just one of many conversations waiting for you at Disrupt, alongside 10,000+ founders, investors, and tech leaders.",
       "Save up to $668 on your Disrupt pass if you register by September 26. Don’t wait — prices will rise soon!"
+    ]
+  },
+  {
+    "url": "https://techcrunch.com/2025/09/03/these-20-and-22-year-olds-raised-5m-from-yc-general-catalyst-to-study-online-behavior-using-vision-ai/",
+    "story": [
+      "Amogh Chaturvedi is running on little sleep but plenty of conviction at 6 a.m. He’s groggy, apologetic for rescheduling, and still reeling from a recent scare involving a family member and an electric scooter.",
+      "Within minutes, though, the 20-year-old Stanford dropout snaps into focus, walking me through how he and his co-founders sold one startup at 19, landed in Y Combinator, and raised $5 million for their next company, Human Behavior.",
+      "Launched just a few months ago, Human Behavior is betting that vision AI can do what analytics tools like Mixpanel and PostHog have struggled with: give companies a real understanding of how people use their products, including why they convert or churn.",
+      "Instead of relying on manually tagged events or clickstream data, Human Behavior claims its AI watches real user session replays and generates insights, answering product teams’ most pressing questions without hours of instrumenting code.",
+      "The 4-month-old YC startup closed its $5 million seed round in just two days (which is becoming a norm for current YC companies), with backers including General Catalyst, Paul Graham, Vercel Ventures, and Y Combinator.",
+      "“We could’ve done the financial engineering game because we got more offers with higher valuations, but we didn’t want that,” said the CEO.",
+      "Chaturvedi met his co-founders, Skyler Ji and Chirag Kawediya, both 22, at a hacker house he organized in 2023 as an excuse to live and build with friends after his freshman year at Stanford.",
+      "Their first startup, Dough, was an e-commerce accounting tool they bootstrapped. Like Chaturvedi, Ji dropped out of college (leaving Berkeley) while Kawediya went on to graduate.",
+      "Although YC was initially skeptical about Dough’s market potential, the team was admitted into the accelerator’s spring batch this year on the assumption they would eventually pivot, Chaturvedi says. They did so almost immediately, after speaking with every customer and inquiring about any other problems they faced.",
+      "The feedback was consistent: While Dough could show which products were selling or not, the customers wanted to know why. Answering that required analytics powered by behavioral data, not just accounting reports.",
+      "With this new direction, the team sold Dough for six figures to Employer.com, the same company that bought Bench, and went all-in on Human Behavior.",
+      "Kawediya explains that companies using traditional analytics often need engineers to set up event trackers for every button and click, burning hours, sometimes weeks, of engineering time.",
+      "For a fast-moving startup, that’s far from ideal. “Even once you have that data, you’re still stuck with the bigger question of how users actually interact with your product so you can make it better,” he says.",
+      "Session replays aren’t new, but until recently, computer vision models weren’t accurate enough to parse them at scale. Now they are, and Human Behavior is doing so to summarize and segment thousands of hours of footage. “Why spend hours writing code to track clicks when we can just watch the video?” Ji adds.",
+      "Today, Human Behavior’s customers — mostly fast-moving Series A and B startups — get daily summary emails highlighting which features were used, which bugs appeared, and which users churned.",
+      "The founders call session replays an “untapped goldmine.” Right now, Human Behavior helps teams understand users and squash bugs. Over time, the same dataset could power automated QA and embedded IT support. Their ambition is to make Human Behavior the Datadog of session replay, spinning out dozens of products from the same core data.",
+      "Building with new technology from the ground up is how the founders believe they’ll take on more established players like Mixpanel and PostHog. “For some of these companies, it might be difficult to replicate what we have because their architecture can’t support the shift without starting over,” remarked Chaturvedi."
+    ]
+  },
+  {
+    "url": "https://techcrunch.com/2025/09/03/venezuelas-president-thinks-american-spies-cant-hack-huawei-phones/",
+    "story": [
+      "During a press conference on Monday, Venezuela’s president, Nicolás Maduro, showed off a Huawei smartphone that China’s President Xi Jinping gifted him, calling it “the best phone in the world,” and making a bold claim.",
+      "“The Americans can’t hack it, neither their spy planes, nor their satellites,” Maduro said.",
+      "The phone looked like a Mate X6, a foldable phone released by Huawei in 2024.",
+      "Obviously, nothing is impossible to hack, and even less so by U.S. government hackers, who are considered some of the best in the world.",
+      "A U.S.-based vulnerability researcher told TechCrunch that because Huawei makes its own hardware, as well as its own mobile operating system — HarmonyOS — its devices are easier to hack.",
+      "“There’s bound to be many more mistakes in their brand-new code than in iOS and Android at this time,” said the researcher, who asked to remain anonymous to discuss sensitive issues.",
+      "HarmonyOS — like any software in the world — has had bugs and needs regular security updates. In the case of the Mate X6, Huawei promises monthly security patches but also notes that “the number of device models with monthly security patch updates is subject to change. Certain carriers may only support updates on a quarterly basis.”",
+      "Last month alone, Huawei patched 60 bugs in HarmonyOS, 13 of which were classified as “high severity” bugs.",
+      "Huawei acknowledges that malware can get on its devices and has a page dedicated to helping customers who may have gotten their devices hacked.",
+      "Huawei did not respond to a request for comment.",
+      "There is a documented history of U.S. government hackers targeting Huawei. In 2014, documents leaked by Edward Snowden revealed that the NSA had hacked and hid backdoors inside Huawei servers in China. The hack was so bad that NSA spies got all the way inside Huawei’s headquarters in Shenzhen, which allowed them to spy on company executives’ communications and get information about its products.",
+      "“Many of our targets communicate over Huawei-produced products,” the NSA document said, according to The New York Times. “We want to make sure that we know how to exploit these products,” it added, to “gain access to networks of interest” around the world.",
+      "Even though that was in 2014, it is almost certain that the NSA, U.S. Cyber Command, and others have the mission to hack Huawei devices and find vulnerabilities in them for espionage purposes. There are likely U.S. government employees whose only job is to hack Huawei devices and systems. Earlier this year, the Chinese government accused the NSA of targeting Chinese critical infrastructure."
     ]
   },
   {
@@ -582,6 +563,20 @@
       "If you’ve been thinking about joining 10,000+ startup and VC leaders in San Francisco on October 27–29, this is your moment. Lock in your place on the Expo floor where ideas, capital, and connections collide.",
       "Your competitor might already be prepping their booth. Don’t let them steal your spotlight and your high-quality leads.",
       "Book your table now before it’s taken by your competitor!"
+    ]
+  },
+  {
+    "url": "https://techcrunch.com/2025/09/03/googles-notebooklm-now-lets-you-customize-the-tone-of-its-ai-podcasts/",
+    "story": [
+      "Google’s AI note-taking and research assistant NotebookLM now lets users customize the tone of their Audio Overviews, which are podcasts with AI virtual hosts that summarize and discuss documents shared with NotebookLM, such as course readings or legal briefs.",
+      "When generating an Audio Overview, users can now choose whether they want their AI podcasts to be formatted as a “Deep Dive,” “Brief,” “Critique,” or “Debate.”",
+      "A Deep Dive features conversational dialogues where two AI hosts unpack the topic with depth and questions. A Brief is a bite-sized overview that’s designed to help you quickly grasp the core ideas from your sources.",
+      "A Critique features a review of your sources and constructive feedback to help you improve, while a Debate includes two AI hosts offering different perspectives on your sources.",
+      "Each of the different formats lets you customize how long or short you want the AI podcast to be.",
+      "In addition to customizable tones, Google is also bringing a highly requested feature to NotebookLM, which is the addition of new voices for the AI podcasts.",
+      "The launch comes as Google has been building out NotebookLM over the past few months. A few weeks ago, the tech giant rolled out Video Overviews, which allow users to turn dense multimedia, such as raw notes, PDFs, and images, into digestible visual presentations.",
+      "NotebookLM recently also got access to a series of featured notebooks from various authors, publications, researchers, and nonprofits that allow users to explore a wide array of topics. And in May, Google officially rolled out standalone NotebookLM apps for Android and iOS.",
+      "The new formats for NotebookLM are launching in all languages and should be available to all users this week, Google says."
     ]
   },
   {
@@ -775,17 +770,6 @@
       "Chief digital and technology officer Dane Matthews told The Wall Street Journal that even he has mixed experiences with the technology: “Sometimes it lets me down, but sometimes it really surprises me.”",
       "Overall, it sounds like Taco Bell is still deciding how broadly to deploy AI at the drive-through, with leeway for different franchisees to do things their own way. For example, rather than relying on AI exclusively, Matthews said it might make sense to have a human handle drive-through orders at busy restaurants with long lines.",
       "“For our teams, we’ll help coach them: at your restaurant, at these times, we recommend you use voice AI or recommend that you actually really monitor voice AI and jump in as necessary,” he said."
-    ]
-  },
-  {
-    "url": "https://techcrunch.com/2025/08/28/investors-are-loving-lovable/",
-    "story": [
-      "Investors are clamoring to get onto Swedish vibe-coding startup Lovable’s cap table, making unsolicited offers of investment that value the company at more than $4 billion, reports Financial Times.",
-      "Lovable CEO Anton Osika isn’t currently engaging with the flurry of inbound interest, the Times says, which comes a few weeks after the startup announced a $200 million round at a $1.8 billion valuation in a deal led by Accel.",
-      "A Lovable spokesperson told TechCrunch that the company isn’t fundraising now.",
-      "Lovable has grown quickly over its short lifespan. In July, the startup said its annual recurring revenue had surpassed $100 million with more than 10 million projects built using the platform.",
-      "The astounding trajectory of Europe’s hottest unicorn comes just nine months after Lovable launched and comes on the heels of investor interest in vibe-coding startups. Cursor-maker Anysphere raised $900 million in May, more than tripling its valuation to $9 billion.",
-      "Got a sensitive tip or confidential documents? We’re reporting on the inner workings of the AI industry — from the companies shaping its future to the people impacted by their decisions. Reach out to Rebecca Bellan at rebecca.bellan@techcrunch.com and Maxwell Zeff at maxwell.zeff@techcrunch.com. For secure communication, you can contact us via Signal at @rebeccabellan.491 and @mzeff.88."
     ]
   },
   {
