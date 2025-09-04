@@ -23,3 +23,22 @@ export async function addLink(linkUrl) {
     console.error("Error writing document:", err);
   }
 }
+
+// Get all used links and filter out from articleLinks
+export async function getUsedLinks() {
+  try {
+    const snapshot = await db
+      .collection("tech-news-analyst-used-article-links")
+      .get();
+
+    // Put all existing links into a Set for fast lookup
+    const usedLinks = new Set(snapshot.docs.map(doc => doc.data().link));
+
+    // Keep only the ones not in Firestore
+
+    return usedLinks;
+  } catch (err) {
+    console.error("Error fetching links:", err);
+    return []; // fallback: return original list if query fails
+  }
+}

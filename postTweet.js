@@ -24,22 +24,29 @@ const rwClient = client.readWrite; // For posting
 
 const postTweet = async (text) => {
     try {
-
-        const response = await rwClient.v2.tweet(text);
-        console.log('Tweet posted:', response);
+      const response = await rwClient.v2.tweet(text);
+      console.log("Tweet posted:", response);
+      return response; // ✅ return response if success
     } catch (err) {
-        console.error('Error posting tweet:', err);
+      console.error("Error posting tweet:", err);
+      return null; // ✅ return null on error
     }
-};
-
-
-(async () => {
+  };
+  
+  (async () => {
     const tweetText = await createTweet();
     const tweetArticleUrl = targetArticleUrl;
-    await postTweet(tweetText);
-    console.log('tau', targetArticleUrl)
-    await addLink(tweetArticleUrl);
-})();
+  
+    const tweetPostResponse = await postTweet(tweetText);
+  
+    if (tweetPostResponse) {
+      // ✅ Only add link if posting succeeded
+      await addLink(tweetArticleUrl);
+    } else {
+      console.log("Tweet failed, not saving link.");
+    }
+  })();
+  
 
 
 
