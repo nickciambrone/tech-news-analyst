@@ -42,6 +42,8 @@ Details:
 8. Include hashtags (#AI, #TechInvesting, etc.) to tap into trending conversations and boost discoverability. 
 9. Very important. You should NOT be using short sentences, this needs to be a thoughtful analysis. 
 10. Also most important, at the same time, it should appeal to someone who knows nothing about technology. I WANT YOU TO LITERALLY FUCKING EXPLAIN IT LIKE YOU ARE TALKING TO 13 YEAR OLD. 
+11. Do not quote anything from this prompt in the tweet. like don't say anything about it being for a 13 year old for example. there should be no text from this prompt in the tweet
+12. make sure it is <280 characters. this is very important. 
 Article: ${JSON.stringify(targetArticle)}
 `,
   });
