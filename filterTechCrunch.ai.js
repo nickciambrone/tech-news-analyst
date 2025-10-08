@@ -4,7 +4,7 @@ import { scrapeTechCrunchHome } from './scrapeTechCrunch.js';
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.dev' });
 import OpenAI from 'openai';
-import { getUsedLinks } from './firestore.js';
+// import { getUsedLinks } from './firestore.js';
 
 export const getArticleForTweet = async () => {
 
@@ -12,13 +12,12 @@ export const getArticleForTweet = async () => {
 
   const today = new Date();
   const todayFormatted = `${today.getFullYear()}/${String(today.getMonth() + 1).padStart(2, '0')}/${String(today.getDate()).padStart(2, '0')}`;
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10).replace(/-/g, '/');
-  techCrunchArticles = techCrunchArticles.filter(link => link.includes(todayFormatted) || link.includes(yesterday));
+  techCrunchArticles = techCrunchArticles.filter(link => link.includes(todayFormatted));
   
-  const usedLinks = await getUsedLinks();
-  console.log('Used links from Firestore: ', usedLinks);
+  // const usedLinks = await getUsedLinks();
+  // console.log('Used links from Firestore: ', usedLinks);
   console.log('Original techCrunchArticles: ', techCrunchArticles);
-  techCrunchArticles = techCrunchArticles.filter(link => !usedLinks.has(link));
+  // techCrunchArticles = techCrunchArticles.filter(link => !usedLinks.has(link));
   console.log('Filtered techCrunchArticles: ', techCrunchArticles);
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
