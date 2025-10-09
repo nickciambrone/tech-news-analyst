@@ -12,6 +12,7 @@ export const getArticleForTweet = async () => {
   console.log('scraped techCrunchArticles: ', techCrunchArticles);
   const today = new Date();
   const todayFormatted = `${today.getFullYear()}/${String(today.getMonth() + 1).padStart(2, '0')}/${String(today.getDate()).padStart(2, '0')}`;
+  console.log(todayFormatted)
   techCrunchArticles = techCrunchArticles.filter(link => link.includes(todayFormatted));
   
   // const usedLinks = await getUsedLinks();
