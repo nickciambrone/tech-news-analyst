@@ -10,8 +10,9 @@ export const getArticleForTweet = async () => {
 
   let techCrunchArticles = await scrapeTechCrunchHome();
   console.log('scraped techCrunchArticles: ', techCrunchArticles);
-  const today = new Date();
-  const todayFormatted = today.toLocaleDateString('en-CA'); // outputs YYYY-MM-DD
+  const now = new Date();
+  const local = new Date(now.getTime() - now.getTimezoneOffset() * 60 * 1000);
+  const todayFormatted = `${local.getFullYear()}/${String(local.getMonth() + 1).padStart(2, '0')}/${String(local.getDate()).padStart(2, '0')}`;
   console.log(todayFormatted);
   techCrunchArticles = techCrunchArticles.filter(link => link.includes(todayFormatted));
   
