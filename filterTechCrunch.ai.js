@@ -11,8 +11,8 @@ export const getArticleForTweet = async () => {
   let techCrunchArticles = await scrapeTechCrunchHome();
   console.log('scraped techCrunchArticles: ', techCrunchArticles);
   const today = new Date();
-  const todayFormatted = `${today.getFullYear()}/${String(today.getMonth() + 1).padStart(2, '0')}/${String(today.getDate()).padStart(2, '0')}`;
-  console.log(todayFormatted)
+  const local = new Date(today.getTime() - today.getTimezoneOffset() * 60000);
+  const todayFormatted = `${local.getFullYear()}/${String(local.getMonth() + 1).padStart(2, '0')}/${String(local.getDate()).padStart(2, '0')}`;
   techCrunchArticles = techCrunchArticles.filter(link => link.includes(todayFormatted));
   
   // const usedLinks = await getUsedLinks();
