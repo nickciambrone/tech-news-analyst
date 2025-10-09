@@ -2,7 +2,7 @@ name: Run Node Script Daily at Random Time
 
 on:
   schedule:
-    - cron: "0,30 * * * *"  # Runs at minute 0 and 30 of every hour
+    - cron: "0 6 * * *"  # Runs every day at 6:00 AM UTC
 
 jobs:
   run-script:
@@ -25,10 +25,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Random delay between 0 and 30 minutes
+      - name: Random delay between 0 and 6 hours
         run: |
-          DELAY=$(( RANDOM % 31 ))  # 0–30 minutes
-          echo "Sleeping for $DELAY minutes..."
+          DELAY=$(( RANDOM % 361 ))  # 0–360 minutes (6 hours)
+          echo "Sleeping for $DELAY minutes (~$((DELAY/60)) hours)..."
           sleep "${DELAY}m"
 
       - name: Run script
