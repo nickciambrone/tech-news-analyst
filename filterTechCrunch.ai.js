@@ -11,9 +11,11 @@ export const getArticleForTweet = async () => {
   let techCrunchArticles = await scrapeTechCrunchHome();
   console.log('scraped techCrunchArticles: ', techCrunchArticles);
   const now = new Date();
-  const local = new Date(now.getTime() - now.getTimezoneOffset() * 60 * 1000);
-  const todayFormatted = `${local.getFullYear()}/${String(local.getMonth() + 1).padStart(2, '0')}/${String(local.getDate()).padStart(2, '0')}`;
-  console.log(todayFormatted);
+  const estOffset = 4 * 60; // UTC-4 for Eastern Daylight Time
+  const est = new Date(now.getTime() - (estOffset + now.getTimezoneOffset()) * 60 * 1000);
+
+  const todayFormatted = `${est.getFullYear()}/${String(est.getMonth() + 1).padStart(2, '0')}/${String(est.getDate()).padStart(2, '0')}`;
+  console.log('Today formatted (EST): ', todayFormatted);
   techCrunchArticles = techCrunchArticles.filter(link => link.includes(todayFormatted));
   
   // const usedLinks = await getUsedLinks();
