@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '.env.dev' });
 import { createTweet, targetArticleUrl } from './generateTweet.ai.js';
 import { TwitterApi } from 'twitter-api-v2';
-import { addLink } from './firestore.js';
+// import { addLink } from './firestore.js';
 
 const client = new TwitterApi({
     appKey: process.env.TWITTER_API_KEY,
@@ -41,7 +41,7 @@ const postTweet = async (text) => {
   
     if (tweetPostResponse) {
       // ✅ Only add link if posting succeeded
-      await addLink(tweetArticleUrl);
+    //   await addLink(tweetArticleUrl);
     } else {
       console.log("Tweet failed, not saving link.");
     }
